@@ -1,0 +1,24 @@
+body{
+    background-image: radial-gradient(circle farthest-side at left center, #0818FF 0%, #06145E 100%);
+    }
+
+#container{
+background-color: #cbdaff;
+}
+
+#nav_container ul
+{
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+#nav_container ul li { display: inline; }
+
+#nav_container ul li a
+{
+text-decoration: none;
+padding: .2em 1em;
+color: white;
+background-color: #0027e9;
+}
