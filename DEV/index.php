@@ -1,8 +1,8 @@
 <?php
-include("top.html");
+include("main_top.html");
 ?>
 
-<h1>Welcome to the Characters Music Exchange!</h1>
+<h1 id="main_message">Welcome to the Characters Music Exchange!</h1>
 
 <!-- Container -->
 <div id='container'>
@@ -32,11 +32,15 @@ function open_win(){
     
 </div>
 
-<div class='mid_col'>
+<div class='right_col'>
     
 </div>
 
-<div class='right_col'>
+<div class='top_stack'>
+    
+</div>
+
+<div class='bottom_stack'>
     
 </div>
 
