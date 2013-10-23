@@ -1,0 +1,80 @@
+body{
+    background-image: radial-gradient(circle farthest-side at left center, #0818FF 0%, #06145E 100%);
+    }
+
+#container{
+    background-color: #e9e9e9;
+text-align: center;
+width: auto;
+}
+
+#banner{
+    text-align: center;
+}
+
+#main_message{
+    background-color: #cfcfcf;
+    text-align: center;
+    text-shadow: 5px 5px 15px;
+    outline: black solid 2px;
+}
+
+#nav_container ul
+{
+text-align: center;
+margin: auto;
+padding: 10px;
+list-style-type: none;
+background-color: black;
+}
+
+#nav_container ul li { display: inline; }
+
+#nav_container ul li a
+{
+/*text-align: center;*/
+text-decoration: none;
+padding: .2em 1em;
+color: white;
+background-color: #0027e9;
+}
+
+.right_col{
+    margin: 5px 5px;
+    float: right;
+    width: 48.5%;
+    height: 600px;
+    background-color: pink;
+}
+
+.left_col{
+    margin: 5px 5px;
+    float: left;
+    width: 48.5%;
+    height: 600px;
+    background-color: purple;
+}
+
+.top_stack{
+    margin: 5px 5px;
+    text-align: center;
+    clear: both;
+    width: auto;
+    height: 100px;
+    background-color: yellow;
+}
+
+.bottom_stack{
+    margin: 5px 5px;
+    text-align: center;
+    width: auto;
+    height: 100px;
+    background-color: green;
+}
+
+#login_button{
+    float: right;
+    width: 100px;
+    position: relative;
+    
+}
