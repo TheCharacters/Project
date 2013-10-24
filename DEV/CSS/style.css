@@ -73,8 +73,10 @@ background-color: #0027e9;
 }
 
 #login_button{
-    float: right;
-    width: 100px;
-    position: relative;
-    
+float: right;
+height: 30px;
+margin-top: 5px;
+width: 100px;
+background-color: red;
+position: relative;    
 }

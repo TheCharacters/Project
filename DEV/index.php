@@ -2,17 +2,16 @@
 include("main_top.html");
 ?>
 
+
 <h1 id="main_message">Welcome to the Characters Music Exchange!</h1>
 
 <!-- Container -->
 <div id='container'>
 <!--LOGIN SCRIPT -->
 <div id="login_button">
-    <script>
-function open_win(){
-    window.open("login.php");
-}
-</script>
+    <form>
+        <input type='button' value='Login' onclick="window.open('test_login.php');">
+    </form>
 </div>
 <!--END OF LOGIN SCRIPT -->
 
