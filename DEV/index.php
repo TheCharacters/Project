@@ -1,9 +1,16 @@
-<?php
-include("main_top.html");
-?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TC Music Exchange</title>
+        <link href="CSS/style.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <body>
+      <div id="main">
+        <div id="banner">
+            <img src="images/banner.jpg" alt="TC Music Exchange" />
+        </div>
 
-
-<h1 id="main_message">Welcome to the Characters Music Exchange!</h1>
+        <h1 id="main_message">Welcome to the Characters Music Exchange!</h1>
 
 <!-- Container -->
 <div id='container'>

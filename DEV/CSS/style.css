@@ -3,13 +3,16 @@ body{
     }
 
 #container{
-    background-color: #ffff33;
-text-align: center;
-width: auto;
+    background-color: brown;
+    text-align: center;
+    width: auto;
 }
 
-#banner{
+#banner img{
     text-align: center;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
 }
 
 #main_message{
@@ -83,4 +86,7 @@ position: relative;
 #main {
     background-color:white;
     border:4px solid lightblue;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
