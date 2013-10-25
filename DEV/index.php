@@ -44,6 +44,7 @@ include("main_top.html");
 </div>
 
 </div> <!-- End of container -->
+</div>
     </body>
     
 </html>

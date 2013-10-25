@@ -80,3 +80,7 @@ width: 100px;
 background-color: red;
 position: relative;    
 }
+#main {
+    background-color:white;
+    border:4px solid lightblue;
+}
