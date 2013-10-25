@@ -17,7 +17,9 @@
 <!--LOGIN SCRIPT -->
 <div id="login_button">
     <form>
-        <input type='button' value='Login' onclick="window.open('test_login.php');">
+        <input type='button' value='Login' onclick='window.open("main_login.php",
+                    name="Login","width=350,height=200",scrollable=0,
+                    resizable=0);'>
     </form>
 </div>
 <!--END OF LOGIN SCRIPT -->
