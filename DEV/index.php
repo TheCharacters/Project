@@ -29,8 +29,8 @@
 			top:20%;
 			left:30%;
 			width:500px;
-			height:300px;
-			background:#ffffff;
+			height:400px;
+			background:#103491;
 			z-index:51;
 			padding:10px;
 			-webkit-border-radius: 5px;
@@ -121,7 +121,8 @@
     
 <!--LOGIN  -->
 <div id="login_button">
-    <a href='#' class='lightbox'>Login</a>
+    <button href="#" class="lightbox">Login</button>
+<!--        <a href='#' class='lightbox'>Login</a>-->
 </div>
 <!--END OF LOGIN -->
 
