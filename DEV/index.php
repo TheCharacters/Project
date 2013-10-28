@@ -3,7 +3,7 @@
     <head>
         <title>TC Music Exchange</title>
         <link href="CSS/style.css" type="text/css" rel="stylesheet"/>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="js/jquery.js"></script>
         
         <!-- THIS IS REQUIRED FOR THE LOGIN TO APPEAR CORRECTLY!!!! -->
         <style type="text/css">
@@ -58,7 +58,7 @@
 		$(document).ready(function(){
 			
 			$('.lightbox').click(function(){
-				$('.backdrop,.box').animate({'opacity':'.50'}, 300, 'linear');
+				$('.backdrop,.box').animate({'opacity':'.70'}, 300, 'linear');
 				$('.box').animate({'opacity':'1.00'}, 300, 'linear');
 				$('.backdrop,.box').css('display','block');
 			});
