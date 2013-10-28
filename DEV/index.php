@@ -91,21 +91,20 @@
         <div class='box'>
             <div class='close'>x</div>
             
-            <form id='login' action='login.php' method='post' accept-charset='UTF-8'>
-                <fieldset >
-                <legend>Login</legend>
-                <input type='hidden' name='submitted' id='submitted' value='1'/>
- 
-                <label for='username' >UserName*:</label>
-                <input type='text' name='username' id='username'  maxlength="50" />
- 
-                <label for='password' >Password*:</label>
-                <input type='password' name='password' id='password' maxlength="50" />
- 
-                <input type='submit' name='Submit' value='Submit' />
- 
-                </fieldset>
-            </form>
+            <div class="login">
+                 <h1>Login to TC Music Exchange</h1>
+                     <form method="post" action="login.php" accept-charset='UTF-8'>
+                         <input type='hidden' name='submitted' id='submitted' value='1'/>
+                         <p><input type="text" name="username" value="" id='username' maxlength='50' placeholder="Username or Email"></p>
+                         <p><input type="password" name="password" value="" id='password' placeholder="Password"></p>
+                         <p class="submit"><input type="submit" name="Submit" value="Submit"></p>
+                     </form>
+           </div>
+
+            <div class="login-help">
+                <p>Forgot your password? <a href="resetpwd.php">Click here to reset it</a>.</p>
+            </div>
+            
         </div>
         <!-- END OF LIGHTBOX DIVs -->
         
