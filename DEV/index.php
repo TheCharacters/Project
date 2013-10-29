@@ -154,6 +154,15 @@
     
 </div>
 
+
+             <footer id="footer">
+                 <a href="url">Help</a>
+                 <a href="/tos">Terms of Service</a>
+                 <a href="/privacy">Privacy Policy</a>
+                 <a href="/feedback">Feedback</a>  
+             </footer>
+
+
 </div> <!-- End of container -->
 </div>
     </body>
