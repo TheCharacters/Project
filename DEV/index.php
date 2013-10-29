@@ -2,8 +2,9 @@
 <html>
     <head>
         <title>TC Music Exchange</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="CSS/style.css" type="text/css" rel="stylesheet"/>
-        <script src="js/jquery.js"></script>
+        <script src="js/jquery.js" type="text/javascript"></script>
         
         <!-- THIS IS REQUIRED FOR THE LOGIN TO APPEAR CORRECTLY!!!! -->
         <style type="text/css">
