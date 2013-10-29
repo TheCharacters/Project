@@ -155,12 +155,12 @@
 </div>
 
 
-             <footer id="footer">
-                 <a href="url">Help</a>
-                 <a href="/tos">Terms of Service</a>
-                 <a href="/privacy">Privacy Policy</a>
-                 <a href="/feedback">Feedback</a>  
-             </footer>
+ <footer id="footer">
+       <a href="url">Help</a>
+       <a href="/tos">Terms of Service</a>
+       <a href="/privacy">Privacy Policy</a>
+       <a href="/feedback">Feedback</a>  &#0169;The Characters 2013
+ </footer>
 
 
 </div> <!-- End of container -->
