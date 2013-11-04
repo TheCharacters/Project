@@ -1,57 +1,97 @@
-body{
-    background-image: url("file://images/bg.jpg");
-    content:center;
+body {
+    background-image:url(../images/bg.jpg);
 }
 #bannermain {
     width:950px;
     overflow:hidden;
     margin-bottom:10px;
+    border-radius:20px;
 }
 #main {
     border:solid 5px blue;
     width:950px;
-    background-color:lightblue;
+    background-image:url("../images/bg2.png");
     overflow:hidden;
     padding:10px;
+    border-radius:20px;
+    margin:auto;
+    
 }
 #navbar {
     border:1px solid black;
-    font-family: arial sans-serif;
     background:darkblue;
     width:930px;
     overflow:hidden;
     padding:10px;
     margin-bottom:10px;
+    border-radius:20px;
+    font-family:courier, arial, sans-serif;
 }
 #links {
     float:left;
 }
 #navlog {
     float:right;
+    font-family:courier, arial, sans-serif;
 }
 a:link {
     color:white;
+    text-decoration: none;
 }     
 a:visited {
     color:white;
+    text-decoration: none;
 } 
 a:hover {
     color:white;
+    text-decoration: none;
 }
 #welcome {
-    border:5px solid green;
+    border: 5px solid lightblue;
+    border-radius:20px;
     padding:10px;
     color:black;
     font-family: courier, arial, sans-serif;
     float:left;
     margin-right:10px;
+    margin-bottom: 10px;
     width:600px;
     overflow:hidden;
+    background:white;
 }
 #topbands {
     width:280px;
     margin-left:640px;
+    margin-bottom: 10px;
     border:5px solid black;
+    border: 5px solid lightblue;
+    border-radius:20px;
     padding:10px;
-    
+    color:black;
+    font-family: courier, arial, sans-serif;
+    background:white;
+}
+#songs {
+    border: 5px solid lightblue;
+    border-radius:20px;
+    padding:10px;
+    color:black;
+    font-family: courier, arial, sans-serif;
+    margin-right:10px;
+    width:920px;
+    overflow:hidden;
+    background:white;
+}
+#footer {
+    margin-top:10px;
+    border: 5px solid lightblue;
+    border-radius:20px;
+    padding:10px;
+    color:black;
+    font-family: courier, arial, sans-serif;
+    size:6pt;
+    width:920px;
+    overflow:hidden;
+    background:white;
+    text-align:center;
 }

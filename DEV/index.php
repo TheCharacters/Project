@@ -12,23 +12,32 @@
             </div>
             <div id="navbar">
                 <div id="links">
-                    <a href="http://www.google.com">GOOGLE </a><a href="http://www.ask.com">ASK </a>
+                    <a href="index.php">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="construction.html">About Us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="construction.html">Contact Us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
                 </div>
                 <div id="navlog">
-                    <a href="http://www.google.com">GOOGLE </a><a href="http://www.ask.com">ASK </a>
+                    <a href="construction.html">Sign Up&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="construction.html">Sign In     </a>
                 </div>
             </div>
             <div id="welcome">
-                HELLO. Welcome to our SITE!!!
+                Hello and welcome to the Characters project music exchange! We have created a free place for bands such as yourselves to upload their own, original music for sharing and exposure! It is our hope that ny using this site, your band will not only be more popular, but help other bands reach the same goals you want to achieve! 
+                Feel free to take a look around and start sharing the music!
+                - The Developers
             </div>
             <div id="topbands">
-                XXXXXXXXXX
+                Top 5 Bands:
+                <ol>
+                    <li> VAR 1</li>
+                    <li> VAR 2</li>
+                    <li> VAR 3</li>
+                    <li> VAR 4</li>
+                    <li> VAR 5</li>
+                </ol>
             </div>
             <div id="songs">
                 XXXXXXXXXXXX
             </div>
             <div id="footer">
-                COPYRIGHTDSFDSFS
+                &copy; 2013 The Characters project. William Penn University
             </div>
             <div id="counter">
                 sdfldsflesdfdeslfsdfl
