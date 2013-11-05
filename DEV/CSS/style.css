@@ -1,8 +1,15 @@
 body {
     background-image:url(../images/bg.jpg);
+    background-attachment:fixed;
 }
 #bannermain {
     width:950px;
+    overflow:hidden;
+    margin-bottom:10px;
+    border-radius:20px;
+}
+#banner {
+    height:150px;
     overflow:hidden;
     margin-bottom:10px;
     border-radius:20px;
@@ -15,7 +22,6 @@ body {
     padding:10px;
     border-radius:20px;
     margin:auto;
-    
 }
 #navbar {
     border:1px solid black;
@@ -46,7 +52,7 @@ a:hover {
     color:white;
     text-decoration: none;
 }
-#welcome {
+#container1 {
     border: 5px solid lightblue;
     border-radius:20px;
     padding:10px;
@@ -59,7 +65,7 @@ a:hover {
     overflow:hidden;
     background:white;
 }
-#topbands {
+#container2 {
     width:280px;
     margin-left:640px;
     margin-bottom: 10px;
@@ -71,7 +77,19 @@ a:hover {
     font-family: courier, arial, sans-serif;
     background:white;
 }
-#songs {
+#container3 {
+    border: 5px solid lightblue;
+    border-radius:20px;
+    padding:10px;
+    color:black;
+    font-family: courier, arial, sans-serif;
+    margin-right:10px;
+    margin-bottom:10px;
+    width:920px;
+    overflow:hidden;
+    background:white;
+}
+#container4 {
     border: 5px solid lightblue;
     border-radius:20px;
     padding:10px;
@@ -95,3 +113,17 @@ a:hover {
     background:white;
     text-align:center;
 }
+#counter {
+    margin-top:10px;
+    border: 5px solid lightblue;
+    border-radius:20px;
+    padding:10px;
+    color:black;
+    font-family: courier, arial, sans-serif;
+    size:6pt;
+    overflow:hidden;
+    background:white;
+    text-align:center;
+}
+
+
