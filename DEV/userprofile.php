@@ -3,16 +3,15 @@
         <title>USER VAR - Home</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="CSS/style.css" type="text/css" rel="stylesheet"/>
-        <link href="CSS/UserFormat.css" type="text/css" rel="stylesheet"/>
     </head>
-    <body>
+    <body class='profile'>
         <div id="main">
             <div id="banner">
                 <img src="images/banner.jpg" alt="Welcome!" />
             </div>
             <div id="navbar">
                 <div id="links">
-                    <a href="index.php">User Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="construction.html">About Us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="construction.html">Contact Us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <a href="index.php">User Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="about.html">About Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="construction.html">Contact Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </div>
                 <div id="navlog">
                     <a href="construction.html">Log Out     </a>

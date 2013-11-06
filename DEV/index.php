@@ -12,10 +12,10 @@
             </div>
             <div id="navbar">
                 <div id="links">
-                    <a href="index.php">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="construction.html">About Us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="construction.html">Contact Us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <a href="index.php">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="about.html">About Us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="construction.html">Contact Us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
                 </div>
                 <div id="navlog">
-                    <a href="construction.html">Sign Up&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="construction.html">Sign In     </a>
+                    <a href="signup.php">Sign Up&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="construction.html">Sign In     </a>
                 </div>
             </div>
             <div id="container1">
@@ -47,7 +47,7 @@
                 &copy; 2013 The Characters project. William Penn University
             </div>
             <div id="counter">
-                This page has been visited VAR times.
+                This page has been visited <?php include('hits.php');?> times.
             </div>
             <a href="userhome.php">USER HOME</a>
         </div>
