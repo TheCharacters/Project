@@ -3,6 +3,7 @@
         <title>TC Music Exchange</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="CSS/style.css" type="text/css" rel="stylesheet"/>
+        <link rel="icon" type="image/png" href="images/favicon.ico">
     </head>
     <body>
         <div id="main">

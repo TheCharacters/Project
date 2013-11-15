@@ -3,6 +3,7 @@
         <title>TC Music Exchange</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="CSS/style.css" type="text/css" rel="stylesheet"/>
+        <link rel="icon" type="image/png" href="images/favicon.ico">
     </head>
     <body>
         <div id="main">
@@ -22,7 +23,7 @@
                 <h4>Tell us a little bit about your band. </h4>
                 <form>
                     Band Name: <input type='text' name='bandname'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    City: <input type='text'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    City: <input type='text' name="city">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     State: <select name='state'>
                         <option value="" selected="selected">Select a State</option>
                         <option value="AL">Alabama</option>
@@ -77,7 +78,14 @@
                         <option value="WI">Wisconsin</option>
                         <option value="WY">Wyoming</option>
                     </select><br /><br />
+                    Members (enter member's first and last name, followed by a comma): <input type='text' name='members'><br /><br />
+                    Date Founded (YYYY): <input type='text' name='datefounded'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<br/><br/>
                     <textarea cols='50' rows='6' name='description' maxlength='600' placeholder='Band Description (600 char or less):'></textarea>
+                    <div id='inputleft'>
+                        Band Password: <input type='password' name='password' placeholder="6 or more characters.">
+                        <br/><br/>
+                        Confirm Password: <input type='password' name='confirm'>
+                    </div>
                 </form>
             </div>
             <div id="footer">

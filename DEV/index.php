@@ -4,6 +4,7 @@
         <title>TC Music Exchange</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="CSS/style.css" type="text/css" rel="stylesheet"/>
+        <link rel="icon" type="image/png" href="images/favicon.ico">
     </head>
     <body>
         <div id="main">
@@ -42,6 +43,10 @@
                     <li> Song 4 </li>
                     <li> Song 5 </li>
                 </ol>
+            </div>
+            <div id="container4">
+                <h2>Browse Bands</h2>
+                (php loop here to look for bands and add them to the list. Can be refined with organization pramators such as alphabetical sort or # of songs.)
             </div>
             <div id="footer">
                 &copy; 2013 The Characters project. William Penn University

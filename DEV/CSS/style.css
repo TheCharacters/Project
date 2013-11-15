@@ -143,5 +143,10 @@ a:hover {
     height:40px;
     margin-left:720px;
 }
-
-
+textarea {
+    float:right;
+    clear:both;
+}
+#inputleft {
+    float:left;
+}
