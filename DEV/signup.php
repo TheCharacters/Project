@@ -21,7 +21,7 @@
             <div id="container3">
                 <h2>Sign up - It's Easy!</h2>
                 <h4>Tell us a little bit about your band. </h4>
-                <form>
+                <form name='signup' action='' method='POST'>
                     Band Name: <input type='text' name='bandname'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     City: <input type='text' name="city">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     State: <select name='state'>
@@ -85,7 +85,10 @@
                         Band Password: <input type='password' name='password' placeholder="6 or more characters.">
                         <br/><br/>
                         Confirm Password: <input type='password' name='confirm'>
+                        <br/><br/>
+                        <input type="submit" value="Submit">
                     </div>
+                  
                 </form>
             </div>
             <div id="footer">
