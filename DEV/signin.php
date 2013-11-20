@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
     <head>
         <title>TC Music Exchange</title>
@@ -16,30 +15,21 @@
                     <a href="index.php">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="about.html">About Us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="construction.html">Contact Us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
                 </div>
                 <div id="navlog">
-                    <a href="signup.php">Sign Up&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="signin.php">Sign In     </a>
+                    <a href="signup.php">Sign Up     </a>
                 </div>
             </div>
             <div id="container3">
-                <h2>The Developers</h2>
-                <ul>
-                    <li><h2>Des Rosario - Team Leader</h2>
-                        Des is..awesome.
-                    </li>
-                    <li><h2>William Smead - Programmer</h2>
-                        Will is..awesome.
-                    </li>
-                    <li><h2>Scott Cook</h2>
-                        Scott is..awesome.
-                    </li>
-                    <li><h2>Justin Schaefer</h2>
-                        Justin is..awesome.
-                    </li>
-                </ol>
+                <h2>Sign in:</h2>
+                <form name='signup' action='' method='POST'>
+                    Band Name: <input type='text' name='bandname'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Password: <input type='text' name="city">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="submit" value="Submit">
+                </form>
             </div>
             <div id="footer">
                 &copy; 2013 The Characters project. William Penn University
             </div>
+            <a href="userhome.php">USER HOME</a>
         </div>
     </body>
 </html>
-                

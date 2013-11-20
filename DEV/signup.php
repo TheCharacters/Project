@@ -15,7 +15,7 @@
                     <a href="index.php">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="about.html">About Us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="construction.html">Contact Us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
                 </div>
                 <div id="navlog">
-                    <a href="construction.html">Sign In     </a>
+                    <a href="signin.php">Sign In     </a>
                 </div>
             </div>
             <div id="container3">
@@ -82,9 +82,9 @@
                     Date Founded (YYYY): <input type='text' name='datefounded'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<br/><br/>
                     <textarea cols='50' rows='6' name='description' maxlength='600' placeholder='Band Description (600 char or less):'></textarea>
                     <div id='inputleft'>
-                        Band Password: <input type='password' name='password' placeholder="6 or more characters.">
+                        Band Password: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type='password' name='password' placeholder="6 or more characters.">
                         <br/><br/>
-                        Confirm Password: <input type='password' name='confirm'>
+                        Confirm Password: &nbsp;&nbsp;&nbsp;<input type='password' name='confirm'>
                         <br/><br/>
                         <input type="submit" value="Submit">
                     </div>
