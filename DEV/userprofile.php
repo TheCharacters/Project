@@ -1,3 +1,6 @@
+<?php
+            include 'db_top.php';
+?>
 <html>
     <head>
         <title>USER VAR - Home</title>

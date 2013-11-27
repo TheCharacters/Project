@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<?php
+            include 'db_top.php';
+?>
 <html>
     <head>
         <title>TC Music Exchange</title>
