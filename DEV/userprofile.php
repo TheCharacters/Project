@@ -1,5 +1,8 @@
 <?php
-            include 'db_top.php';
+            include 'db_top.php'; 
+            $data = mysql_query("SELECT * FROM bands");
+            $info = mysql_fetch_array( $data ); 
+            print $info;
 ?>
 <html>
     <head>
