@@ -24,10 +24,10 @@
             <div id="container3">
                 <h2>Sign up - It's Easy!</h2>
                 <h4>Tell us a little bit about your band. </h4>
-                <form name='signup' action='' method='POST'>
-                    Band Name: <input type='text' name='bandname'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    City: <input type='text' name="city">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    State: <select name='state'>
+                <form name='signup' action='insert.php' method='post'>
+                    Band Name: <input type='text' name='band_name'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    City: <input type='text' name="band_city">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    State: <select name='band_state'>
                         <option value="" selected="selected">Select a State</option>
                         <option value="AL">Alabama</option>
                         <option value="AK">Alaska</option>
@@ -81,11 +81,11 @@
                         <option value="WI">Wisconsin</option>
                         <option value="WY">Wyoming</option>
                     </select><br /><br />
-                    Members (enter member's first and last name, followed by a comma): <input type='text' name='members'><br /><br />
-                    Date Founded (YYYY): <input type='text' name='datefounded'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<br/><br/>
-                    <textarea cols='50' rows='6' name='description' maxlength='600' placeholder='Band Description (600 char or less):'></textarea>
+                    Members (enter member's first and last name, followed by a comma): <input type='text' name='band_members'><br /><br />
+                    Date Founded (YYYY): <input type='text' name='band_founded'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<br/><br/>
+                    <textarea cols='50' rows='6' name='band_bio' maxlength='600' placeholder='Band Description (600 char or less):'></textarea>
                     <div id='inputleft'>
-                        Band Password: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type='password' name='password' placeholder="6 or more characters.">
+                        Band Password: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type='password' name='band_password' placeholder="6 or more characters.">
                         <br/><br/>
                         Confirm Password: &nbsp;&nbsp;&nbsp;<input type='password' name='confirm'>
                         <br/><br/>

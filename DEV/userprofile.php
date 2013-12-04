@@ -2,7 +2,7 @@
             include 'db_top.php'; 
             $data = mysql_query("SELECT * FROM bands");
             $info = mysql_fetch_array( $data ); 
-            print $info;
+//            print $info;
 ?>
 <html>
     <head>
@@ -40,6 +40,7 @@
             </div>
             <div id="container2">
                 Profile Pic:  
+                <?php print $info ?>
             </div>
             <div id="container3">
                 SEARCH
