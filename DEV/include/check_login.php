@@ -21,7 +21,7 @@ $myusername = mysql_real_escape_string($myusername);
 $mypassword = mysql_real_escape_string($mypassword);
 $sql="SELECT * FROM $tbl_name WHERE band_name='$myusername' and band_password='$mypassword'";
 $result=mysql_query($sql);
-print_r($sql);
+
 // Mysql_num_row is counting table row
 $count=mysql_num_rows($result);
 
@@ -33,11 +33,8 @@ session_register("myusername");
 session_register("mypassword"); 
 header("location:userprofile.php");
 }
-else {
-    echo "count is " . $count;
-    
-echo "Wrong Username or Password -- ";
-print "password " . $mypassword;
-print "username " . $myusername;
+else {    
+echo "Username or Password Incorrect. Please try again.";
+
 }
 ?>
