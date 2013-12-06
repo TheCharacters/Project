@@ -23,9 +23,9 @@
             </div>
             <div id="container3">
                 <h2>Sign in:</h2>
-                <form name='signup' action='' method='POST'>
+                <form name='signin' action='include/check_login.php' method='POST'>
                     Band Name: <input type='text' name='bandname'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    Password: <input type='text' name="city">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Password: <input type='password' name="password">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <input type="submit" value="Submit">
                 </form>
             </div>
