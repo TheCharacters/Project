@@ -1,12 +1,24 @@
 <?php
-            include 'db_top.php'; 
-            $data = mysql_query("SELECT * FROM bands");
-            $info = mysql_fetch_array( $data ); 
-//            print $info;
+
+session_start();
+//if(isset($_COOKIE['check']) && isset($_SESSION['band'])){
+//
+//            include 'db_top.php'; 
+//            $data = mysql_query("SELECT * FROM bands");
+//            $info = mysql_fetch_array( $data ); 
+////            print $info;
+//            print "set works"
+//            
+//} else {
+//    print "You must be logged in to do that.";
+//    
+//       print "<a href=signin.php>Return to Login Page</a>";
+//       print "<a href=index.php>Return to Homepage</a>";
+       
 ?>
 <html>
     <head>
-        <title>USER VAR - Home</title>
+        <title> <?php $_SESSION['band'] ?> - Home</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="CSS/style.css" type="text/css" rel="stylesheet"/>
         <link rel="icon" type="image/png" href="images/favicon.ico">
@@ -21,11 +33,11 @@
                     <a href="index.php">User Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="about.html">About Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="construction.html">Contact Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </div>
                 <div id="navlog">
-                    <a href="construction.html">Log Out     </a>
+                    <a href="logout.php">Log Out     </a>
                 </div>
             </div>
             <div id="container1">
-                <h2>Blackheart</h2>
+                <h2><?php 'band' ?></h2>
                 Rating: VAR out of 5.
                 <div id="uploads">
                     <h3> Uploaded songs:</h3>
