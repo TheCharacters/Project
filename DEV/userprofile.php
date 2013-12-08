@@ -1,22 +1,16 @@
 <?php
-//if(isset($_COOKIE['check']) && isset($_SESSION['band'])){
-//
-//            include 'db_top.php'; 
-//            $data = mysql_query("SELECT * FROM bands");
-//            $info = mysql_fetch_array( $data ); 
-////            print $info;
-//            print "set works"
-//            
-//} else {
-//    print "You must be logged in to do that.";
-//    
-//       print "<a href=signin.php>Return to Login Page</a>";
-//       print "<a href=index.php>Return to Homepage</a>";
+
+            include 'db_top.php'; 
+            $data = mysql_query("SELECT * FROM bands");
+            $info = mysql_fetch_array( $data );             
+//            print $info;
+            print "set works"
+
        
 ?>
 <html>
     <head>
-        <title> <?php $_SESSION['band'] ?> - Home</title>
+        <title> <?php $_COOKIE['band'] ?> - Home</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="CSS/style.css" type="text/css" rel="stylesheet"/>
         <link rel="icon" type="image/png" href="images/favicon.ico">
