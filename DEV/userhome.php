@@ -18,6 +18,7 @@
                 <div id="links">
                     <a href="index.php">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="about.html">About Us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="construction.html">Contact Us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
                 </div>
+                
                 <div id="navlog">
                     <a href="signup.php">Sign Up&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="signin.php">Sign In     </a>
                 </div>

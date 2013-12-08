@@ -28,13 +28,11 @@ $count=mysql_num_rows($result);
 // If result matched $myusername and $mypassword, table row must be 1 row
 if($count==1){
     
-session_start();
+
 
 // Register $myusername, $mypassword and redirect to file "login_success.php"
 session_register("myusername");
 session_register("mypassword"); 
-
-$_SESSION['band'] = $myusername;
 setcookie("check", "loggedin");
 
 header("location:../userprofile.php");

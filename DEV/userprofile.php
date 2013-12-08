@@ -1,6 +1,4 @@
 <?php
-
-session_start();
 //if(isset($_COOKIE['check']) && isset($_SESSION['band'])){
 //
 //            include 'db_top.php'; 

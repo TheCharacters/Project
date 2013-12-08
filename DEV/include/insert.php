@@ -47,4 +47,5 @@ if(! $retval )
 }
 echo "Entered data successfully\n";
 mysql_close($conn);
+header("location:userhome.php");
 ?>
