@@ -1,5 +1,7 @@
 <?php
             include 'db_top.php';
+            session_start();
+            
 ?>
 <html>
     <head>
@@ -10,6 +12,8 @@
     </head>
     <body>
         <div id="main">
+                        <? print_r($_COOKIE); ?>
+
             <div id="banner">
                 <img src="images/banner.jpg" alt="Welcome!" />
             </div>
@@ -24,7 +28,7 @@
             <div id="container3">
                 <h2>Sign up - It's Easy!</h2>
                 <h4>Tell us a little bit about your band. </h4>
-                <form name='signup' action='include/insert.php' method='post'>
+                <form name='signup' action='include/insert2.php' method='post'>
                     Band Name: <input type='text' name='band_name'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     City: <input type='text' name="band_city">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     State: <select name='band_state'>

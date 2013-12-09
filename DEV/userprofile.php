@@ -1,12 +1,9 @@
 <?php
-
+    session_start();
             include 'db_top.php'; 
             $data = mysql_query("SELECT * FROM bands");
             $info = mysql_fetch_array( $data );             
-//            print $info;
-            print "set works"
-
-       
+            print "set works"    
 ?>
 <html>
     <head>
@@ -17,6 +14,7 @@
     </head>
     <body class='profile'>
         <div id="main">
+            <? print_r($_COOKIE); ?>
             <div id="banner">
                 <img src="images/banner.jpg" alt="Welcome!" />
             </div>

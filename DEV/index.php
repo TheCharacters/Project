@@ -11,6 +11,8 @@
     </head>
     <body>
         <div id="main">
+                        <? print_r($_COOKIE); ?>
+
             <div id="bannermain">
                 <img src="images/banner.jpg" alt="Welcome!" />
             </div>

@@ -20,9 +20,14 @@ echo "1 record added";
 
 mysql_close($con);
  */
+?> 
+ <?php
+            session_start();
+            $_SESSION['band'] = $_POST['band_name'];
+            echo $_SESSION['band'];
+            echo $_POST;
+            echo $band_name;
 ?>
-
-
 <?php
 $dbhost = 'localhost';
 $dbuser = 'music_team2';
@@ -35,7 +40,7 @@ if(! $conn )
 $sql="INSERT INTO bands 
     (band_id, band_name, band_founded, band_city, band_state, band_bio, band_members, band_password, visits)
 VALUES
-    ('$_POST[NULL]','$_POST[band_name]','$POST[band_founded]','$_POST[band_city]','$_POST[band_state]','$_POST[band_bio]','$_POST[band_members]','$_POST[band_password]','$_POST[NULL]')";
+    ('$_POST[NULL]','$_POST[band_name]','$_POST[band_founded]','$_POST[band_city]','$_POST[band_state]','$_POST[band_bio]','$_POST[band_members]','$_POST[band_password]','$_POST[NULL]')";
 
 mysql_select_db('music_team2');
 $retval = mysql_query( $sql, $conn );
@@ -43,6 +48,6 @@ if(! $retval )
 {
   die('Could not enter data: ' . mysql_error());
 }
-echo "Entered data successfully\n";
+echo "Entered data successfully\n" . $_POST['band_name'];
 mysql_close($conn);
 ?>
