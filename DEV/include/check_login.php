@@ -34,7 +34,7 @@ if($count==1){
 session_register("myusername");
 session_register("mypassword"); 
 setcookie("check", "loggedin");
-
+setcookie('band', 'band_name');
 header("location:../userprofile.php");
 }
 else {    

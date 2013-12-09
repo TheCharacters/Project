@@ -1,6 +1,5 @@
 <?php
             include 'db_top.php';
-            
 ?>
 <html>
     <head>
@@ -16,7 +15,7 @@
             </div>
             <div id="navbar">
                 <div id="links">
-                    <a href="index.php">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="about.html">About Us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="construction.html">Contact Us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <a href="index.php">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="about.html">About Us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="construction.html">Contact Us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><?php $_COOKIE['band'] ?>
                 </div>
                 
                 <div id="navlog">
@@ -26,7 +25,7 @@
             <div id="container1">
                 <h2>Top Songs:</h2>
                 <ol>
-                    <li> Song 1 </li>
+                    <li> <?php print_r($_COOKIE);?> </li>
                     <li> Song 2 </li>
                     <li> Song 3 </li>
                     <li> Song 4 </li>
