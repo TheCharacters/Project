@@ -35,6 +35,7 @@ body {
 }
 #links {
     float:left;
+    color:white;
 }
 #navlog {
     float:right;

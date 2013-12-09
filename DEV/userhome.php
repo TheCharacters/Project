@@ -11,24 +11,22 @@
     </head>
     <body>
         <div id="main">
-                        <? print_r($_COOKIE); ?>
-
             <div id="banner">
                 <img src="images/banner.jpg" alt="Welcome!" />
             </div>
             <div id="navbar">
                 <div id="links">
                     <a href="index.php">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="about.html">About Us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="construction.html">Contact Us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><?php $_COOKIE['band'] ?>
+                    <?= $_SESSION['band'];?>&nbsp;&nbsp;<a href="userprofile.php">PROFILE</a>
                 </div>
                 <div id="navlog">
-                    <a href="signup.php">Sign Up&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="signin.php">Sign In     </a>
+                    <a href="logout.php">Log Out     </a>
                 </div>
             </div>
             <div id="container1">
                 <h2>Top Songs:</h2>
                 <ol>
-                    <li> <?php print_r($_COOKIE);?> </li>
-                    <?php echo "Band name: ". $_SESSION['band']; ?>
+                    <li> </li>
                     <li> Song 2 </li>
                     <li> Song 3 </li>
                     <li> Song 4 </li>
