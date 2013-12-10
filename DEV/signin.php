@@ -10,8 +10,6 @@
     </head>
     <body>
         <div id="main">
-                        <? print_r($_COOKIE); ?>
-
             <div id="banner">
                 <img src="images/banner.jpg" alt="Welcome!" />
             </div>

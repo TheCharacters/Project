@@ -1,5 +1,6 @@
 <?php
-
+session_start();
+$_SESSION['band'] = $_POST['bandname'];
 $host="localhost"; // Host name 
 $username="music_team2"; // Mysql username 
 $password="Wi11iamPenn"; // Mysql password 

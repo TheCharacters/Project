@@ -47,7 +47,9 @@
                 SEARCH
             </div>
             <div id="footer">
-                &copy; 2013 The Characters project. William Penn University
+                &copy; 2013 The Characters project. William Penn University<br/>
+                <a href="include/upload_song.php">UPLOAD</a>
+                <a href="Files/songs/">CLICK HERE TO VIEW FILES</a> <!-- REMOVE BEFORE FINAL -->
             </div>
         </div>
     </body>

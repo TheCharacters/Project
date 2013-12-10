@@ -47,7 +47,17 @@
             </div>
             <div id="container4">
                 <h2>Browse Bands</h2>
-                (php loop here to look for bands and add them to the list. Can be refined with organization pramators such as alphabetical sort or # of songs.)
+                <?php
+                $db = mysqli_connect("localhost", "music_team2", "Wi11iamPenn", "music_team2");
+                $result = mysqli_query($db,"SELECT bands.band_name FROM bands");
+                while($row = mysqli_fetch_array($result))
+                {
+                echo $row['band_name'];
+                echo "<br>";
+                }
+
+                mysqli_close($db);
+                ?>
             </div>
             <div id="footer">
                 &copy; 2013 The Characters project. William Penn University
