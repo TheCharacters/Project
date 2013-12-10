@@ -1,9 +1,5 @@
 <?php
 session_start();
-if ((($_FILES["file"]["type"] == "image/png")
-|| ($_FILES["file"]["type"] == "audio/mp3")
-|| ($_FILES["file"]["type"] == "image/jpeg")))
-{
 if ($_FILES["file"]["error"] > 0)
 {
 echo "Return Code: " . $_FILES["file"]["error"] . "<br />";
@@ -21,15 +17,10 @@ echo $_FILES["file"]["name"] . " already exists. ";
 }
 else
 {
-move_uploaded_file($_FILES["file"]["temp_name"],
+    $upload = move_uploaded_file($_FILES["file"]["tmp_name"],
 "../Files/songs/ ". $_FILES["file"]["name"]);
 echo "Stored in: " . "../Files/songs/" . $_FILES["file"]["name"];
 }
-}
-}
-else
-{
-echo "Invalid file";
 }
 ?>
 <a href="../userprofile.php">PROFILE HOME</a>
@@ -40,6 +31,6 @@ echo "yes";
 }
 else
 {
-echo "no";
-}
+echo "no";}
+echo $upload;
 ?>

@@ -16,7 +16,7 @@
             </div>
             <div id="navbar">
                 <div id="links">
-                    <a href="index.php">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="about.html">About Us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="construction.html">Contact Us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><?php $_COOKIE['band'] ?>
+                    <a href="userhome.php">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="about.html">About Us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="construction.html">Contact Us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><?php $_COOKIE['band'] ?>
                     <?= $_SESSION['band'];?>&nbsp;&nbsp;<a href="userprofile.php">PROFILE</a>
                 </div>
                 <div id="navlog">
