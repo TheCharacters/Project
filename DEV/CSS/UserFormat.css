@@ -1,0 +1,19 @@
+
+root { 
+    display: block;
+}
+#container1 {
+    width:680px;
+}
+#container2 {
+    width:200px;
+    height:200px;
+    margin-left:720px;
+}
+#container3 {
+    width:200px;
+    height:40px;
+    margin-left:720px;
+}
+
+
